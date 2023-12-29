@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+<title>login</title>
+<style>
+
+
+
+</style>
+</head>
+<body>
+ <div class="login-page">
+      <div class="form">
+        <div class="login">
+          <div class="login-header">
+           <h3>ATM LOGIN</h3>
+            <p>Please enter your credentials to login.</p>
+          </div>
+        </div>
+<form action="Atm" method="post" align="center">
+Enter Username:<input type="text" name="username" pattern="[a-zA-Z]+" title="please enter a valid username" required/><br/><br/>
+Enter Pinnumber:<input type="password" name="pinnumber" pattern="[0-9]{04}" title="please enter a valid 4 digit number" /><br/><br/>
+<input type="submit" name="submit"/>
+<p class="message">Not registered? <a href="Registration.html">Create an account</a></p>
+</form>
+</div>
+    </div>
+</body>
+</html>
